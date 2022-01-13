@@ -22,12 +22,12 @@ function destructivelyRemoveFirstCat() {
 }
 
 function appendCat(name) {
-    const allCats = [...cats, "Broom"];
+    const allCats = [...cats, name];
     return allCats;
 }
 
 function prependCat(name) {
-    const allCats = ["Arnold", ...cats];
+    const allCats = [name, ...cats];
     return allCats;
 }
 
